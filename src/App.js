@@ -9,8 +9,7 @@ import { useAuth } from "./contexts/AuthContext";
 import Login from "./components/Login";
 
 const apiUrl =
-  process.env.REACT_APP_API_URL ||
-  "https://google-reader-clone-lay2v.ondigitalocean.app/api";
+  process.env.REACT_APP_API_URL;
 
 export default function App() {
   const { token } = useAuth();
