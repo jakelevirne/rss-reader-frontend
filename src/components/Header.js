@@ -20,7 +20,7 @@ export default function Header() {
               className="max-h-full w-20 mr-4"
             />
             <h2 className="text-white font-bold tracking-wider">
-              Sammy Reader
+              Jake's Sammy Reader
             </h2>
           </div>
 
